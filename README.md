@@ -33,3 +33,18 @@ CIRCUIT DIAGRAM:
 
 <img width="1000" height="460" alt="LIDAR circuit" src="https://github.com/user-attachments/assets/8db11aa3-b440-48b3-8306-a6a1f77d7ec4" />
 
+RAY OPTICS:
+
+Visulizing how the diverging beam of IR from the VL53L0X sensor hits the mirror, gets reflected and keeps diverging.
+image 1
+
+<img width="1283" height="819" alt="image 1" src="https://github.com/user-attachments/assets/2f7c6442-0be0-41ab-905d-f94ecd703fa7" />
+
+image 2
+
+<img width="893" height="677" alt="image 2" src="https://github.com/user-attachments/assets/9b09be77-49fe-4a3d-9511-64f9cf86b66a" />
+
+graph link:
+
+https://www.desmos.com/3d/aw1s0kakht
+
