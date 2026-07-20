@@ -32,3 +32,4 @@ Popsicle sticks(to support the ToF sensor).
 CIRCUIT DIAGRAM:
 
 <img width="1000" height="460" alt="LIDAR circuit" src="https://github.com/user-attachments/assets/8db11aa3-b440-48b3-8306-a6a1f77d7ec4" />
+
