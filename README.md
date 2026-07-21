@@ -58,6 +58,9 @@ ellipse:
 
 this angle is used to decide the distance at which we need to keep the mirror from the sensor and which ultimately for a fixed size of mirror decides the un measurable lost region due to the sensor hiding the reflected transmitted beam.
 
+The beam keeps diverging even after reflection, it is because the reflected rays diverge away(see images 1 and 2 made by me in desmos3d for visualization)
+
 calculation of distance between ToF sensor and centre of mirror:
 
 <img width="1080" height="960" alt="radius finding" src="https://github.com/user-attachments/assets/24b42af6-d953-454d-bb7e-5ac64eca82eb" />
+
