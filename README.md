@@ -67,3 +67,6 @@ calculation of distance between ToF sensor and centre of mirror:
 Visualization of LIDAR scanning full 360 degrees:
 
 <img width="1428" height="645" alt="LIDAR 360 scan visualization" src="https://github.com/user-attachments/assets/c4e92d62-4920-4161-8b71-070b8c43cabe" />
+
+The reflected ray doesnt make the same angle with the x axis as the plane makes at any point of time, derivation of relation between the angle made by reflected ray with x axis to the angle made by plane with x axis:
+
