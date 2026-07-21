@@ -48,7 +48,7 @@ graph link:
 
 https://www.desmos.com/3d/aw1s0kakht
 
-The diverging beam of transmitter IR(looks like a cone of ) is incident on the mirror which makes an angle with the axis of the cone with vertex angle of 25 degrees, but i'm using 35 degrees as recommended by the VL53L0X datasheet for less interference in reading. This incident cone creates a ellipse of light rays in the plane of mirror.
+The diverging beam of transmitter IR(looks like a cone) is incident on the mirror which makes an angle with the axis of the cone ,with vertex angle of 25 degrees, but i'm using 35 degrees as recommended by the VL53L0X datasheet for less interference in reading. This incident cone creates a ellipse of light rays in the plane of mirror.
 
 <img width="848" height="615" alt="Screenshot 2026-07-21 084713" src="https://github.com/user-attachments/assets/285077d7-6653-41a9-a682-99c3d9c165e4" />
 
