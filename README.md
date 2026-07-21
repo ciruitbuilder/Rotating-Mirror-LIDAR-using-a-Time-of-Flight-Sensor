@@ -74,6 +74,8 @@ The reflected ray doesnt make the same angle with the x axis as the plane makes 
 
 <img width="733" height="1123" alt="angle relation lidar" src="https://github.com/user-attachments/assets/d1707fcd-7eb1-4f67-987b-1e14a03ae77f" />
 
+x -> angle made by mirror with y axis = angle made by normal with x axis.
+
 as x = θ, using the diagram in above image, angle made by reflected ray with x axis(in image, +x axis is pointing downwards, towards sensor/source) is twice that of angle made by the normal with x axis : angle of reflected ray with x axis = 2x
 
 Hence for a 360 degree scan, the mirror has to rotate only by 180 degrees per sweep.
