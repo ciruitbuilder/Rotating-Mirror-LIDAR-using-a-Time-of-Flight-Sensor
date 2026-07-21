@@ -64,3 +64,6 @@ calculation of distance between ToF sensor and centre of mirror:
 
 <img width="1080" height="960" alt="radius finding" src="https://github.com/user-attachments/assets/24b42af6-d953-454d-bb7e-5ac64eca82eb" />
 
+Visualization of LIDAR scanning full 360 degrees:
+
+<img width="1428" height="645" alt="LIDAR 360 scan visualization" src="https://github.com/user-attachments/assets/c4e92d62-4920-4161-8b71-070b8c43cabe" />
