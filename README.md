@@ -14,6 +14,8 @@ The element responsible with the rotation of the mirror is a unipolar stepper mo
 
 The unipolar stepper motor driver was built by me using an array of NPN transistors and turning them on and off in order using an arduino board(same one used to gather distance data from the ToF sensor)
 
+The stepper motor is powered by the 9v battery and the arduino is powered by a usb cable connected to the laptop.
+
 MATERIALS REQUIRED:
 
 
@@ -26,6 +28,8 @@ Pair of mirrors stuck together(on the non reflective sides) to create a reflecti
 Wires
 
 4x BC547 NPN Transistor
+
+9v HW battery
 
 Popsicle sticks(to support the ToF sensor).
 
