@@ -105,3 +105,7 @@ Void loop calls these functions in order of :
 5. waiting 300ms.
 
 OUTPUT:
+
+I tested the LIDAR by placing it in front of a flat wall and inside closed walls. To visualze surrounding of lidar the x and y coordinates are printed into the serial monitor, i copied those values into a note
+
+flatwall
