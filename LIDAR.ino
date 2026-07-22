@@ -50,7 +50,7 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   angle = (count/516.0) *(2*3.14);
-  d = get_distance();
+  d = get_distance()-6; // 6cm is the distance between mirror and sensor
   x = d*cos(angle*2);
   y = d*sin(angle*2);
   Serial.print(x);
