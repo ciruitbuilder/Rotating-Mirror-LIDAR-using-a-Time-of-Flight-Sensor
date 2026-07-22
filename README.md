@@ -126,6 +126,8 @@ DISADVANTAGES:
 2. Loss of coverage due to physical obstruction by ToF sensor and non reflective part of mirror.
 3. readings are taken once in 4 steps of stepper motor, limiting resolution.
 
+problems i encountered : in the first run of this project(this is the second run), i tried using a mirror wayy smaller than this(1.3cm side length) which is fit for a smaller radius design and more compact. but the readings were way less accurate and erroraneous, so i use a bgger mirrors to accomodate the rays fully inside the reflective surface. 
+
 END:
 
 This is an effort by me to make a LIDAR using affordable sensors, motors and household materials. Though it doesnt give outputs equivalent to a costly LIDAR, It still gives identifiable and useful information about its surroundings.
