@@ -120,6 +120,10 @@ also we can see the points converge into the LIDAR's position where we expect tw
 
 <img width="1600" height="1200" alt="non reflective side" src="https://github.com/user-attachments/assets/74022756-d145-4a7a-88d2-cdc3408ecea8" />
 
+VIDEO OF LIDAR SCANNING(SHOT USING IR CAMERA MADE BY ME BY REMOVING IR FILTER FROM AN OLD WEBCAM, VIDEO IS IN 2X SPEED):
+
+https://github.com/user-attachments/assets/cbd07f28-aee5-4edc-a908-0589862b54cc
+
 DISADVANTAGES:
 
 1. Sensor gives points arranged in a curve while scanning thoug a wall(exoected: straight line).
