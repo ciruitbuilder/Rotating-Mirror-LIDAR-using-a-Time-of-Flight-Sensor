@@ -79,3 +79,29 @@ x -> angle made by mirror with y axis = angle made by normal with x axis.
 as x = θ, using the diagram in above image, angle made by reflected ray with x axis(in image, +x axis is pointing downwards, towards sensor/source) is twice that of angle made by the normal with x axis : angle of reflected ray with x axis = 2x
 
 Hence for a 360 degree scan, the mirror has to rotate only by 180 degrees per sweep.
+
+CODE AND WORKING OF LIDAR:
+
+configuration of VL53L0X, input output pins and Serial monitor has been done in void setup.
+
+The code for this project has five functions:
+
+1. get_distance() ---> measures and returns the sum, distance between the LIDAR mirror + distance between mirror and TOF sensor. Return value is an unsigned int
+
+2. fwd() ----> runs the for loop to turn on transistor array for the stepper motor to step forward.the loop itself consist of 4 steps per loop. Returns none, gets int as number of steps
+
+3. bwd() ----> runs loop for backward stepper spin. Returns none, gets number of steps.
+
+4. set_low() ----> sets all stepper motor transistor array pins low.
+
+5. stepper() ---- > combines fwd() and bwd().  updates a count to keep track of number of times 4 seps has been taken(for angle calculation).
+   the count is used int calculating angle by multiplying the ratio of number of 4 steps taken to number of 4 steps in a full 360 degree spin(2048 steps in full rotation) = 2048/4 = 512 sets of 4 steps, ratio : (count/512). multiplying ratio with 2*pi will give the angle at that point of time in radians
+
+Void loop calls these functions in order of :
+1. getting the distance
+2. calculating the coordinates
+3. printing coordinates to serial monitor
+4. moving the stepper 4 steps forward
+5. waiting 300ms.
+
+OUTPUT:
