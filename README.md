@@ -1,4 +1,6 @@
 # Rotating-Mirror-LIDAR-using-a-Time-of-Flight-Sensor
+<img width="1600" height="1200" alt="cover image" src="https://github.com/user-attachments/assets/c411838a-9890-4056-920c-78d3abd98d38" />
+
 DESCRIPTION:
 
 
@@ -106,6 +108,22 @@ Void loop calls these functions in order of :
 
 OUTPUT:
 
-I tested the LIDAR by placing it in front of a flat wall and inside closed walls. To visualze surrounding of lidar the x and y coordinates are printed into the serial monitor, i copied those values into a note
+I tested the LIDAR by placing it in front of a flat wall and inside closed walls. To visualze surrounding of lidar the x and y coordinates are printed into the serial monitor, i copied those values into a notepad file and saved it in a .xyz format. This .xyz file is uploaded into xyzviewer website : https://www.xyzviewer.com/
 
-flatwall
+The images for flatwall and closed square walls can be found inside the output_images section in this project repository. The curved look of flat walls is due to the conical nature of the incident and reflected beam, when a beam is incident at a point of time, the sensor takes the average of all those returning distances(for each ray), hence causing the curvature. 
+
+also we can see the points converge into the LIDAR's position where we expect two other edges of the box(see box in output_images). This is due to the physical obstruction of reflected due to the placement of sensor(obstructs the area behind it and hence points converge near it) for one edge, and reflection of ray from the non reflective side of the mirror in short distances, hiding the other edge
+
+<img width="1600" height="1200" alt="non reflective side" src="https://github.com/user-attachments/assets/74022756-d145-4a7a-88d2-cdc3408ecea8" />
+
+DISADVANTAGES:
+
+1. Sensor gives points arranged in a curve while scanning thoug a wall(exoected: straight line).
+2. Loss of coverage due to physical obstruction by ToF sensor and non reflective part of mirror.
+3. readings are taken once in 4 steps of stepper motor, limiting resolution.
+
+END:
+
+This is an effort by me to make a LIDAR using affordable sensors, motors and household materials. Though it doesnt give outputs equivalent to a costly LIDAR, It still gives identifiable and useful information about its surroundings.
+
+THANK YOU
